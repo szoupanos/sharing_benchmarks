@@ -11,7 +11,7 @@ I performed most of the experiments with a subset of the database of Mounet with
 
 The bench2_1 (my initial approach):
 Calculates at the SQLA level the A = DB ∩ TS and calculates at the python level the C = TS - A
-./share_bench_2_1.py
+(share_bench_2_1.py)
 https://github.com/szoupanos/sharing_benchmarks/blob/master/uuid_exchange/sharing_bench21_res1_smalldb.txt
 
 The bench3:
