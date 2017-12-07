@@ -10,10 +10,10 @@ C = TS - A (which is also TS - DB)
 I performed most of the experiments with a subset of the database of Mounet with 1.462.993 nodes
 
 The bench2_1 (my initial approach):
-Calculates at the SQLA level the A = DB ∩ TS and calculates at the python level the C = TS - A
+Calculates at the SQLA level the A = DB ∩ TS and calculates at the python level the C = TS - A  
+[Sharing bench 2 v1 - Script](./share_bench_2_1.py)  
+[Sharing bench 2 v1 - Results](./sharing_bench21_res1_smalldb.txt)  
 
-[Sharing bench 2 v1 - Script](./share_bench_2_1.py)
-[Sharing bench 2 v1 - Results](./sharing_bench21_res1_smalldb.txt)
 
 The bench3:
 Calculates at the SQLA level the B = DB - TS
