@@ -1,2 +1,1 @@
-# sharing_benchmarks
-These are benchmarks related the the AiiDA sharing
+This is the repository that contains various benchmarks needed for sharing.
