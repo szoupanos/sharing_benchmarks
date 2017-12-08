@@ -14,6 +14,8 @@ The bench2_1 (my initial approach):
 Calculates at the SQLA level the A = DB ∩ TS and calculates at the python level the C = TS - A  
 [Sharing bench 2 - Script](./share_bench_2_1.py)  
 [Sharing bench 2 - Results with small DB](./sharing_bench21_res1_smalldb.txt)  
+[Sharing bench 2 - Results with small DB - Clean cache](./sharing_bench21_res2_smalldb_empty_cache.txt)  
+[Sharing bench 2 - Results with small DB - PC restart](./sharing_bench21_res3_smalldb_restart.txt)  
 
 
 The bench3:
@@ -39,6 +41,8 @@ In this approach we get from SQLA the DB set and we calculate the C at the Pytho
 The difference with 5 is that we bypass the QueryBuilder for the receiver check and we use the SQLA API  
 [Sharing bench 6 - Script](./share_bench_6.py)  
 [Sharing bench 6 - Results with small DB](./sharing_bench6_res1_smalldb.txt)  
+[Sharing bench 6 - Results with small DB - Clean cache](./sharing_bench6_res2_smalldb_empty_cache.txt)  
+[Sharing bench 6 - Results with small DB - PC restart](./sharing_bench6_res3_smalldb_restart.txt)  
 [Sharing bench 6 - Results with lange DB](./sharing_bench6_res1_mounetdb.txt)  
 
 From a first look, the most promising approaches are 1 & 6.
