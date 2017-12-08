@@ -1,15 +1,15 @@
 # UUID exchange benchmarks
 
-Let’s call:
-DB the set of UUIDs at the receiver side
-TS the set of UUIDs sent by the sender
-B = DB - TS
-A = DB - B (which is also DB ∩ TS)
-C = TS - A (which is also TS - DB)
+Let’s call:  
+DB the set of UUIDs at the receiver side  
+TS the set of UUIDs sent by the sender  
+B = DB - TS  
+A = DB - B (which is also DB ∩ TS)  
+C = TS - A (which is also TS - DB)  
 
-I performed most of the experiments with a subset of the database of Mounet with 1.462.993 nodes
+I performed most of the experiments with a subset of the database of Mounet with 1.462.993 nodes  
 
-The bench2_1 (my initial approach):
+The bench2_1 (my initial approach):  
 Calculates at the SQLA level the A = DB ∩ TS and calculates at the python level the C = TS - A  
 [Sharing bench 2 - Script](./share_bench_2_1.py)  
 [Sharing bench 2 - Results with small DB](./sharing_bench21_res1_smalldb.txt)  
