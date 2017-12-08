@@ -7,7 +7,8 @@ B = DB - TS
 A = DB - B (which is also DB ∩ TS)  
 C = TS - A (which is also TS - DB)  
 
-I performed most of the experiments with a subset of the database of Mounet with 1.462.993 nodes  
+I performed most of the experiments with a subset of the database of Nicolas Mounet with 1.462.993 nodes  
+The large Db which is mentioned below is a 7.318.371 node database obtained by Nicolas Mounet.
 
 The bench2_1 (my initial approach):  
 Calculates at the SQLA level the A = DB ∩ TS and calculates at the python level the C = TS - A  
@@ -38,6 +39,6 @@ In this approach we get from SQLA the DB set and we calculate the C at the Pytho
 The difference with 5 is that we bypass the QueryBuilder for the receiver check and we use the SQLA API  
 [Sharing bench 6 - Script](./share_bench_6.py)  
 [Sharing bench 6 - Results with small DB](./sharing_bench6_res1_smalldb.txt)  
-[Sharing bench 6 - Results with big DB](./sharing_bench6_res1_mounetdb.txt)  
+[Sharing bench 6 - Results with lange DB](./sharing_bench6_res1_mounetdb.txt)  
 
 From a first look, the most promising approaches are 1 & 6.
