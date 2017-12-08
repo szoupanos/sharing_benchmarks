@@ -10,5 +10,9 @@ Sample of how each of the queries was run:
 psql -p 5433 -d aiidadb_mounet_new_sqla -a -f "/tmp/q_innerj_100.sql" -o /tmp/q_out.txt
 
 ## Results
-- [q_in_100.sql](./q_in_100.sql): 705.672 ms
-- [q_innerj_100.sql](./q_innerj_100.sql): 547.907 ms
+- [IN query with 100 entries, q_in_100.sql](./q_in_100.sql): 705.672 ms
+- [INNER JOIN query with 100 entries, q_innerj_100.sql](./q_innerj_100.sql): 547.907 ms
+- [IN query with 1000 entries, q_in_1000.sql](./q_in_1000.sql): 912.600 ms
+- [INNER JOIN query with 1000 entries, q_innerj_1000.sql](./q_innerj_1000.sql): 806.591 ms
+
+
