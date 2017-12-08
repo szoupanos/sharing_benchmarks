@@ -45,4 +45,4 @@ The difference with 5 is that we bypass the QueryBuilder for the receiver check 
 [Sharing bench 6 - Results with small DB - PC restart](./sharing_bench6_res3_smalldb_restart.txt)  
 [Sharing bench 6 - Results with lange DB](./sharing_bench6_res1_mounetdb.txt)  
 
-From a first look, the most promising approaches are 1 & 6.
+From a first look, the most promising approaches are 2 & 6.
