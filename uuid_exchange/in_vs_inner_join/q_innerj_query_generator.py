@@ -2,8 +2,6 @@
 
 import sys
 
-print sys.argv
-
 command = list()
 command.append("\\timing on\n")
 command.append("SELECT db_dbnode_1.uuid AS db_dbnode_1_uuid ")

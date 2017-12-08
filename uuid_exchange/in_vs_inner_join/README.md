@@ -12,7 +12,12 @@ psql -p 5433 -d aiidadb_mounet_new_sqla -a -f "/tmp/q_innerj_100.sql" -o /tmp/q_
 ## Results
 - [IN query with 100 entries, q_in_100.sql](./q_in_100.sql): 705.672 ms
 - [INNER JOIN query with 100 entries, q_innerj_100.sql](./q_innerj_100.sql): 547.907 ms
-- [IN query with 1000 entries, q_in_1000.sql](./q_in_1000.sql): 912.600 ms
+- [IN query with 1.000 entries, q_in_1000.sql](./q_in_1000.sql): 912.600 ms
 - [INNER JOIN query with 1000 entries, q_innerj_1000.sql](./q_innerj_1000.sql): 806.591 ms
 
-
+- [IN query with 10.000 entries, q_in_10000.sql](./q_in_10000.sql): 
+- [INNER JOIN query with 10.000 entries, q_innerj_10000.sql](./q_innerj_10000.sql): 
+- [IN query with 100.000 entries, q_in_100000.sql](./q_in_100000.sql):
+- [INNER JOIN query with 100.000 entries, q_innerj_100000.sql](./q_innerj_100000.sql):
+- [IN query with 1.000.000 entries, q_in_1000000.sql](./q_in_1000000.sql):
+- [INNER JOIN query with 1.000.000 entries, q_innerj_1000000.sql](./q_innerj_1000000.sql): 806.591 ms
